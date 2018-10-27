@@ -1,0 +1,307 @@
+Last login: Fri Oct 26 13:59:49 on ttys003
+DeenaMBP:~ Ds2007laptop$ cd Documents/Work/Programming/fastai/course-v3/
+DeenaMBP:course-v3 Ds2007laptop$ ls
+LICENSE		README.md	docs		nbs		projects
+DeenaMBP:course-v3 Ds2007laptop$ cd projects/
+DeenaMBP:projects Ds2007laptop$ ls
+city_people
+DeenaMBP:projects Ds2007laptop$ cd city_people/
+DeenaMBP:city_people Ds2007laptop$ ls
+SeanDwnld	dwnload_wCalvin
+DeenaMBP:city_people Ds2007laptop$ cd SeanDwnld/
+DeenaMBP:SeanDwnld Ds2007laptop$ ls
+10sanfran_dwnld_wCommand
+DeenaMBP:SeanDwnld Ds2007laptop$ conda activate googimg
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+If your shell is Bash or a Bourne variant, enable conda for the current user with
+
+    $ echo ". /Users/Ds2007laptop/anaconda3/etc/profile.d/conda.sh" >> ~/.bash_profile
+
+or, for all users, enable conda with
+
+    $ sudo ln -s /Users/Ds2007laptop/anaconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+
+The options above will permanently enable the 'conda' command, but they do NOT
+put conda's base (root) environment on PATH.  To do so, run
+
+    $ conda activate
+
+in your terminal, or to put the base environment on PATH permanently, run
+
+    $ echo "conda activate" >> ~/.bash_profile
+
+Previous to conda 4.4, the recommended way to activate conda was to modify PATH in
+your ~/.bash_profile file.  You should manually remove the line that looks like
+
+    export PATH="/Users/Ds2007laptop/anaconda3/bin:$PATH"
+
+^^^ The above line should NO LONGER be in your ~/.bash_profile file! ^^^
+
+
+DeenaMBP:SeanDwnld Ds2007laptop$ conda create googimgdwnld
+
+CondaValueError: either -n NAME or -p PREFIX option required,
+try "conda create -h" for more details
+
+DeenaMBP:SeanDwnld Ds2007laptop$ conda create -n googimgdwnld
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/Ds2007laptop/anaconda3/envs/googimgdwnld
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use:
+# > source activate googimgdwnld
+#
+# To deactivate an active environment, use:
+# > source deactivate
+#
+
+DeenaMBP:SeanDwnld Ds2007laptop$ source activate googimgdwnld
+(googimgdwnld) DeenaMBP:SeanDwnld Ds2007laptop$ pip install google_images_download
+Collecting google_images_download
+  Downloading https://files.pythonhosted.org/packages/58/b7/96ce66b09d25ddba3046c71a3a59c6ccba2a04481d65d500d8a50f627fbd/google_images_download-2.4.2.tar.gz
+Collecting selenium (from google_images_download)
+  Downloading https://files.pythonhosted.org/packages/b0/c9/52390baa8d6b65c3e3b89f522c3a0fcf58f2b4faf37893ef9d97cddde699/selenium-3.14.1-py2.py3-none-any.whl (902kB)
+    100% |████████████████████████████████| 911kB 7.3MB/s
+Requirement already satisfied: urllib3 in /Users/Ds2007laptop/anaconda3/lib/python3.7/site-packages (from selenium->google_images_download) (1.23)
+Building wheels for collected packages: google-images-download
+  Running setup.py bdist_wheel for google-images-download ... done
+  Stored in directory: /Users/Ds2007laptop/Library/Caches/pip/wheels/aa/68/b6/913b8a4e2b20c028bf54d3765cd58297c6e7f16323f1827cbe
+Successfully built google-images-download
+Installing collected packages: selenium, google-images-download
+Successfully installed google-images-download-2.4.2 selenium-3.14.1
+(googimgdwnld) DeenaMBP:SeanDwnld Ds2007laptop$ brew search chromedriver
+==> Casks
+chromedriver
+
+If you meant "chromedriver" specifically:
+It was migrated from homebrew/core to homebrew/cask.
+You can access it again by running:
+  brew tap homebrew/cask
+And then you can install it by running:
+  brew cask install chromedriver
+(googimgdwnld) DeenaMBP:SeanDwnld Ds2007laptop$ brew cask install chromedriver
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+cgit         eg-examples  libvmaf      nu-smv       shellz       sonobuoy     um
+create-dmg   inadyn       node@10      resin-cli    solr@6.6     tealdeer
+==> Updated Formulae
+hdf5 ✔                                        libgit2
+imagemagick ✔                                 libjson-rpc-cpp
+libuv ✔                                       libmagic
+node ✔                                        libmatio
+tmux ✔                                        libmxml
+abyss                                         libopusenc
+advancecomp                                   libphonenumber
+ammonite-repl                                 libplist
+angular-cli                                   libpq
+ansible                                       libressl
+ansifilter                                    librsvg
+antlr                                         libsoup
+antlr@2                                       libssh
+apache-arrow                                  libvirt
+apache-arrow-glib                             libvoikko
+arangodb                                      luvit
+ark                                           magic-wormhole
+armadillo                                     mapserver
+aspectj                                       mas
+aubio                                         mdcat
+autopep8                                      memcached
+awscli                                        mercurial
+azure-cli                                     meson
+bat                                           micronaut
+bazel                                         miller
+beast                                         minio
+bind                                          minio-mc
+bluepill                                      minizinc
+bmake                                         mkvtoolnix
+bnd                                           monetdb
+brotli                                        mongo-c-driver
+bup                                           mongodb
+c-ares                                        mysql@5.5
+caffe                                         mysql@5.6
+cairo                                         mysql@5.7
+cassandra                                     n
+ccache                                        nats-streaming-server
+ccm                                           nco
+choose                                        ncview
+circleci                                      netcdf
+clojure                                       nghttp2
+closure-compiler                              ngspice
+cmdshelf                                      nnn
+cnats                                         node-build
+codemod                                       nss
+conan                                         numpy
+cppcheck                                      octave
+cromwell                                      opam
+crowdin                                       openapi-generator
+cython                                        opencoarrays
+dartsim                                       openshift-cli
+dhall-json                                    openssh
+diff-pdf                                      opus
+diffoscope                                    pandoc-citeproc
+dnsmasq                                       parallel
+docker-machine-driver-xhyve                   payara
+doctl                                         pcl
+doitlive                                      pdal
+duplicity                                     pdfpc
+dynare                                        pdftoedn
+elixir                                        pdftoipe
+erlang                                        percona-toolkit
+erlang@19                                     pgformatter
+erlang@20                                     php-cs-fixer
+eslint                                        phpunit
+etcd                                          planck
+evince                                        plantuml
+exploitdb                                     poppler
+faas-cli                                      portmidi
+fabric                                        prips
+feh                                           pulumi
+ffmpeg                                        pumba
+ffmpeg@2.8                                    pyinvoke
+field3d                                       python-markdown
+file-formula                                  qmmp
+flake8                                        quicktype
+flann                                         rancher-cli
+flyway                                        rclone
+fmpp                                          re2
+fn                                            redis
+frugal                                        restic
+fselect                                       root
+fuseki                                        ruby
+futhark                                       ruby-build
+gandi.cli                                     ruby@2.3
+gauge                                         rust
+gecode                                        s-search
+gedit                                         s3cmd
+git-annex                                     safe
+git-open                                      sbt
+git-review                                    scipy
+gitfs                                         shogun
+gitlab-runner                                 skafos
+gjs                                           sleuthkit
+global                                        smimesign
+gmt                                           spades
+gmt@4                                         sqlparse
+gnome-latex                                   sratoolkit
+gnu-units                                     ssh-copy-id
+gnuplot                                       sshconfigfs
+gpgme                                         swift-protobuf
+gprof2dot                                     tbb
+grafana                                       telegraf
+groovy                                        tepl
+gst-plugins-good                              terraform
+gst-plugins-ugly                              terraform-docs
+gucharmap                                     terragrunt
+harfbuzz                                      tika
+hashpump                                      tippecanoe
+hbase                                         topgrade
+hcloud                                        tox
+hdf5@1.8                                      translate-toolkit
+helmfile                                      typescript
+help2man                                      ucloud
+highlight                                     v8
+hiredis                                       vagrant-completion
+homebank                                      valgrind
+httpd                                         varnish
+icdiff                                        vault
+idris                                         vte3
+imagemagick@6                                 vtk
+influxdb                                      wabt
+iproute2mac                                   wallpaper
+jbake                                         watchman
+jenkins                                       webpack
+jflex                                         when
+jhipster                                      wine
+joplin                                        wireguard-go
+json-fortran                                  xctool
+kallisto                                      xmake
+konoha                                        yamllint
+kubernetes-service-catalog-client             yara
+lasso                                         yasm
+ldc                                           z3
+libbi                                         zsh
+libcerf                                       zsh-completions
+libcouchbase                                  zstd
+==> Renamed Formulae
+gtksourceview@4 -> gtksourceview4
+==> Deleted Formulae
+corebird       gjstest        lsh            open-vcdiff    pxz            taylor
+datomic        heroku         nesemu2        opensyobon     sary           tcptrack
+
+==> Satisfying dependencies
+==> Downloading https://chromedriver.storage.googleapis.com/2.43/chromedriver_mac64.zip
+######################################################################## 100.0%
+==> Verifying SHA-256 checksum for Cask 'chromedriver'.
+==> Installing Cask chromedriver
+==> Linking Binary 'chromedriver' to '/usr/local/bin/chromedriver'.
+🍺  chromedriver was successfully installed!
+(googimgdwnld) DeenaMBP:SeanDwnld Ds2007laptop$ ls
+10sanfran_dwnld_wCommand
+(googimgdwnld) DeenaMBP:SeanDwnld Ds2007laptop$ mkdir sanfran15
+(googimgdwnld) DeenaMBP:SeanDwnld Ds2007laptop$ cd sanfran15/
+(googimgdwnld) DeenaMBP:sanfran15 Ds2007laptop$ ls
+(googimgdwnld) DeenaMBP:sanfran15 Ds2007laptop$ googleimagesdownload -k "san francisco people" -s medium -l 15 -o .
+
+Item no.: 1 --> Item name = san francisco people
+Evaluating...
+Starting Download...
+Completed Image ====> 1. mw-fp511_san_fr_20170630115837_zh.jpg
+Completed Image ====> 2. 5499596471_4304bed511_b.jpg
+Completed Image ====> 3. dance%20week.jpg
+Completed Image ====> 4. 002.jpg
+Completed Image ====> 5. sfprideguide2018750x422.jpg
+Completed Image ====> 6. thinkstockphotos-177414679-624x416.jpg
+Completed Image ====> 7. 58502500a1a45e1a008b57b5-750-562.jpg
+Completed Image ====> 8. sjm-air-0117-06.jpg
+Completed Image ====> 9. san-francisco-homeless.jpg
+Completed Image ====> 10. fotolia_35060312_subscription_xxl.jpg
+Completed Image ====> 11. depositphotos_68191987-stock-photo-crowd-of-people-walk-among.jpg
+Completed Image ====> 12. 2972585_womensmarchsf5.jpg
+Completed Image ====> 13. 920x920.jpg
+Completed Image ====> 14. feed-your-people-a-san-francisco-dinner-party-plus-a-kickstarter.jpg
+Completed Image ====> 15. mud-people-under-vaillancourt-ftn.jpg
+
+Errors: 0
+
+
+Everything downloaded!
+Total time taken: 7.5777647495269775 Seconds
+(googimgdwnld) DeenaMBP:sanfran15 Ds2007laptop$ googleimagesdownload --help
+usage: googleimagesdownload [-h] [-cf CONFIG_FILE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -cf CONFIG_FILE, --config_file CONFIG_FILE
+                        config file name
+(googimgdwnld) DeenaMBP:sanfran15 Ds2007laptop$ ls
+san francisco people
+(googimgdwnld) DeenaMBP:sanfran15 Ds2007laptop$ ls "san francisco people"/
+1. mw-fp511_san_fr_20170630115837_zh.jpg
+10. fotolia_35060312_subscription_xxl.jpg
+11. depositphotos_68191987-stock-photo-crowd-of-people-walk-among.jpg
+12. 2972585_womensmarchsf5.jpg
+13. 920x920.jpg
+14. feed-your-people-a-san-francisco-dinner-party-plus-a-kickstarter.jpg
+15. mud-people-under-vaillancourt-ftn.jpg
+2. 5499596471_4304bed511_b.jpg
+3. dance%20week.jpg
+4. 002.jpg
+5. sfprideguide2018750x422.jpg
+6. thinkstockphotos-177414679-624x416.jpg
+7. 58502500a1a45e1a008b57b5-750-562.jpg
+8. sjm-air-0117-06.jpg
+9. san-francisco-homeless.jpg
+(googimgdwnld) DeenaMBP:sanfran15 Ds2007laptop$ open san\ francisco\ people/
+(googimgdwnld) DeenaMBP:sanfran15 Ds2007laptop$

@@ -1,0 +1,726 @@
+cisco.jpg
+https://heavyeditorial.files.wordpress.com/2016/06/gettyimages-538498678.jpg?quality=65&strip=all&w=780
+https://image.shutterstock.com/z/stock-photo-san-francisco-february-massive-forward-on-climate-rally-at-one-market-plaza-on-february-128670311.jpg
+https://ncg.org/sites/default/files/content_images/news/2014_giants_parade.jpg
+https://previews.123rf.com/images/dade72/dade721705/dade72170500128/78381453-san-francisco-cable-trolley-car-moves-through-the-street-california-people-mover-transportation.jpg
+https://image.slidesharecdn.com/8e8ccce6-0b3a-4414-9e24-ba8c1097987d-150818010336-lva1-app6892/95/2014-attorney-cv-1-638.jpg?cb=1439859840
+https://media.istockphoto.com/photos/people-riding-a-famous-san-francisco-cable-car-picture-id511946634
+https://guideimg.alibaba.com/images/shop/2016/07/23/23/photo-seafood-stalls-fisherman-s-san-francisco-california-ca-1933-people-automobiles_21861623.jpeg
+https://savvycalifornia.com/wp-content/uploads/Norcal-Cherry-Blossom-Festival.jpg
+https://rolandsheppard.com/wp-content/uploads/2017/10/Nurses.png
+http://boojblogbucket.s3-us-west-1.amazonaws.com/mcguire/2018/06/08213751/Things-to-do.png
+http://www.foodrunners.org/wp-content/uploads/2014/11/Map-for-J.jpeg
+https://www.fillmoreshop.com/images/sale/jigsaw/jigsaw_warehouse_sale.jpg
+https://s.hdnux.com/photos/43/21/54/9247524/11/rawImage.jpg
+https://dbrp9vhpyulbv.cloudfront.net/media/cache/1b/f5/1bf5378051ffd1b45fe34c165d58ed7d.jpg
+https://cdn-images-1.medium.com/max/1200/0*ppjB1Ozcf0c6sqkc.jpg
+http://cdn.lightgalleries.net/4bd5ebf5dd56a/images/Editorial_portraits_pg_02-1.jpg
+https://dailycrusadernewsdotcom.files.wordpress.com/2018/03/2018-03-28t211023z_1_lynxmpee2r22r_rtroptp_4_california-crime.jpg
+https://assets.vice.com/content-images/contentimage/147139/DogPoop.jpg?resize=320:*
+https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ExspEUkoliksz67w8/san-francisco-california-united-states-august-14-2016-people-and-traffic-at-fishermans-wharf-of-san-francisco-fishermans-wharf-is-a-neighborhood-and-famous-waterfront-urban-street-view_s7dr7v8yg_thumbnail-small01.jpg
+https://img.newspapers.com/img/thumbnail/460417891/400/400/0_0_4692_7371.jpg?cs=604800
+https://www.eastbaytimes.com/wp-content/uploads/2016/07/20160207__crashfolo-02072-3.jpg?w=620
+http://www.delanceystreetfoundation.org/images/facilities/sf/sffac_photo13.jpg
+https://cdn4.gbot.me/photos/cc/GZ/1464845154/Haight_street_Fair-Haight_Street_Fair-20000000009481127-375x500.jpg
+http://dbs.library.ca.gov/dbtext_html/CalInfoImages/CIFII_Scan1170.jpg
+https://media.gettyimages.com/photos/homeless-people-hang-out-on-the-sidewalk-in-the-mission-district-on-picture-id958513228?s=612x612
+http://www.munidiaries.com/wp-content/uploads/2011/06/California-Street-Cable-Car_sm.jpg
+https://www.fourseasons.com/content/dam/fourseasons/images/web/SFR/SFR_428_original.jpgDeenaMBP:projects Ds2007laptop$ clear
+DeenaMBP:projects Ds2007laptop$ python
+Python 3.7.0 (default, Jun 28 2018, 07:39:16)
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> imutils
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'imutils' is not defined
+>>> argparse
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'argparse' is not defined
+>>> from imutils import paths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'imutils'
+>>> import argparse
+>>> argparse
+<module 'argparse' from '/Users/Ds2007laptop/anaconda3/lib/python3.7/argparse.py'>
+>>> import requests
+>>> requests
+<module 'requests' from '/Users/Ds2007laptop/anaconda3/lib/python3.7/site-packages/requests/__init__.py'>
+>>> import cv2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'cv2'
+>>> import os
+>>> os
+<module 'os' from '/Users/Ds2007laptop/anaconda3/lib/python3.7/os.py'>
+>>>
+DeenaMBP:projects Ds2007laptop$ conda --help
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    config       Modify configuration values in .condarc. This is modeled
+                 after the git config command. Writes to the user .condarc
+                 file (/Users/Ds2007laptop/.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    help         Displays a list of available conda commands and their help
+                 strings.
+    info         Display information about current conda install.
+    install      Installs a list of packages into a specified conda
+                 environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove. See conda remove --help.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages.
+                 See examples below.
+    update       Updates conda packages to the latest compatible version. This
+                 command accepts a list of package names and updates them to
+                 the latest versions that are compatible with all other
+                 packages in the environment. Conda attempts to install the
+                 newest versions of the requested packages. To accomplish
+                 this, it may update some packages that are already installed,
+                 or install additional packages. To prevent existing packages
+                 from updating, use the --no-update-deps option. This may
+                 force conda to install older versions of the requested
+                 packages, and it does not prevent additional dependency
+                 packages from being installed. If you wish to skip dependency
+                 checking altogether, use the '--force' option. This may
+                 result in an environment with incompatible packages, so this
+                 option must be used with great caution.
+    upgrade      Alias for conda update. See conda update --help.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  build
+  convert
+  develop
+  env
+  index
+  inspect
+  metapackage
+  render
+  server
+  skeleton
+DeenaMBP:projects Ds2007laptop$ conda create cities_env
+
+CondaValueError: either -n NAME or -p PREFIX option required,
+try "conda create -h" for more details
+
+DeenaMBP:projects Ds2007laptop$ conda create -n cities_env
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/Ds2007laptop/anaconda3/envs/cities_env
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use:
+# > source activate cities_env
+#
+# To deactivate an active environment, use:
+# > source deactivate
+#
+
+DeenaMBP:projects Ds2007laptop$ source activate cities_env
+(cities_env) DeenaMBP:projects Ds2007laptop$ python
+Python 3.7.0 (default, Jun 28 2018, 07:39:16)
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from imutils import paths
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'imutils'
+>>> import argparse
+>>> import requests
+>>> import cv2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'cv2'
+>>>
+(cities_env) DeenaMBP:projects Ds2007laptop$ conda install imutils
+Solving environment: failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - imutils
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-canary/osx-64
+  - https://conda.anaconda.org/conda-canary/noarch
+  - https://conda.anaconda.org/r/osx-64
+  - https://conda.anaconda.org/r/noarch
+  - https://conda.anaconda.org/bioconda/osx-64
+  - https://conda.anaconda.org/bioconda/noarch
+  - https://repo.anaconda.com/pkgs/main/osx-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/osx-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/osx-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/osx-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(cities_env) DeenaMBP:projects Ds2007laptop$ conda-forge install imutils
+-bash: conda-forge: command not found
+(cities_env) DeenaMBP:projects Ds2007laptop$ pip install imutils
+Collecting imutils
+  Downloading https://files.pythonhosted.org/packages/ee/29/6b20a2f2444be479cbd74b8fb0dd2ee92671e1c52360f1cb022c6c00e052/imutils-0.5.1.tar.gz
+Building wheels for collected packages: imutils
+  Running setup.py bdist_wheel for imutils ... done
+  Stored in directory: /Users/Ds2007laptop/Library/Caches/pip/wheels/4c/ff/aa/824fb9efc5b8c740d54cd8bc19c7e85fbb8d115c77e56812c7
+Successfully built imutils
+twisted 18.7.0 requires PyHamcrest>=1.9.0, which is not installed.
+Installing collected packages: imutils
+Successfully installed imutils-0.5.1
+You are using pip version 10.0.1, however version 18.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(cities_env) DeenaMBP:projects Ds2007laptop$ conda install cv2
+Solving environment: failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - cv2
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-canary/osx-64
+  - https://conda.anaconda.org/conda-canary/noarch
+  - https://conda.anaconda.org/r/osx-64
+  - https://conda.anaconda.org/r/noarch
+  - https://conda.anaconda.org/bioconda/osx-64
+  - https://conda.anaconda.org/bioconda/noarch
+  - https://repo.anaconda.com/pkgs/main/osx-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/osx-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/osx-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/osx-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(cities_env) DeenaMBP:projects Ds2007laptop$ pip install cv2
+Collecting cv2
+  Could not find a version that satisfies the requirement cv2 (from versions: )
+No matching distribution found for cv2
+You are using pip version 10.0.1, however version 18.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(cities_env) DeenaMBP:projects Ds2007laptop$ pip install --upgrade pip
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/c2/d7/90f34cb0d83a6c5631cf71dfe64cc1054598c843a92b400e55675cc2ac37/pip-18.1-py2.py3-none-any.whl
+twisted 18.7.0 requires PyHamcrest>=1.9.0, which is not installed.
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-18.1
+(cities_env) DeenaMBP:projects Ds2007laptop$ pip install cv2
+Collecting cv2
+  Could not find a version that satisfies the requirement cv2 (from versions: )
+No matching distribution found for cv2
+(cities_env) DeenaMBP:projects Ds2007laptop$ deactivate
+(cities_env) DeenaMBP:projects Ds2007laptop$ source deactivate
+DeenaMBP:projects Ds2007laptop$ conda --help
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    config       Modify configuration values in .condarc. This is modeled
+                 after the git config command. Writes to the user .condarc
+                 file (/Users/Ds2007laptop/.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    help         Displays a list of available conda commands and their help
+                 strings.
+    info         Display information about current conda install.
+    install      Installs a list of packages into a specified conda
+                 environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove. See conda remove --help.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages.
+                 See examples below.
+    update       Updates conda packages to the latest compatible version. This
+                 command accepts a list of package names and updates them to
+                 the latest versions that are compatible with all other
+                 packages in the environment. Conda attempts to install the
+                 newest versions of the requested packages. To accomplish
+                 this, it may update some packages that are already installed,
+                 or install additional packages. To prevent existing packages
+                 from updating, use the --no-update-deps option. This may
+                 force conda to install older versions of the requested
+                 packages, and it does not prevent additional dependency
+                 packages from being installed. If you wish to skip dependency
+                 checking altogether, use the '--force' option. This may
+                 result in an environment with incompatible packages, so this
+                 option must be used with great caution.
+    upgrade      Alias for conda update. See conda update --help.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  build
+  convert
+  develop
+  env
+  index
+  inspect
+  metapackage
+  render
+  server
+  skeleton
+DeenaMBP:projects Ds2007laptop$ conda remove --help
+usage: conda remove [-h] [-y] [--dry-run] [--json] [--debug] [--verbose]
+                    [--all] [--force] [--no-pin] [-c CHANNEL]
+                    [--override-channels] [-n ENVIRONMENT | -p PATH] [-q] [-C]
+                    [--use-local] [--offline] [-k] [--features]
+                    [package_name [package_name ...]]
+
+Remove a list of packages from a specified conda environment.
+
+    This command will also remove any package that depends on any of the
+    specified packages as well---unless a replacement can be found without
+    that dependency. If you wish to skip this dependency checking and remove
+    just the requested packages, add the '--force' option. Note however that
+    this may result in a broken environment, so use this with caution.
+
+Options:
+
+positional arguments:
+  package_name          Package names to remove from the environment.
+
+optional arguments:
+  -h, --help            Show this help message and exit.
+  -y, --yes             Do not ask for confirmation.
+  --dry-run             Only display what would have been done.
+  --json                Report all output as json. Suitable for using conda
+                        programmatically.
+  --debug               Show debug output.
+  --verbose, -v         Use once for info, twice for debug, three times for
+                        trace.
+  --all                 Remove all packages, i.e., the entire environment.
+  --force               Forces removal of a package without removing packages
+                        that depend on it. Using this option will usually
+                        leave your environment in a broken and inconsistent
+                        state.
+  --no-pin              Ignore pinned file.
+  -c CHANNEL, --channel CHANNEL
+                        Additional channel to search for packages. These are
+                        URLs searched in the order they are given (including
+                        file:// for local directories). Then, the defaults or
+                        channels from .condarc are searched (unless
+                        --override-channels is given). You can use 'defaults'
+                        to get the default packages for conda, and 'system' to
+                        get the system packages, which also takes .condarc
+                        into account. You can also use any name and the
+                        .condarc channel_alias value will be prepended. The
+                        default channel_alias is http://conda.anaconda.org/.
+  --override-channels   Do not search default or .condarc channels. Requires
+                        --channel.
+  -n ENVIRONMENT, --name ENVIRONMENT
+                        Name of environment.
+  -p PATH, --prefix PATH
+                        Full path to environment prefix.
+  -q, --quiet           Do not display progress bar.
+  -C, --use-index-cache
+                        Use cache of channel index files, even if it has
+                        expired.
+  --use-local           Use locally built packages.
+  --offline             Offline mode, don't connect to the Internet.
+  -k, --insecure        Allow conda to perform "insecure" SSL connections and
+                        transfers. Equivalent to setting 'ssl_verify' to
+                        'false'.
+  --features            Remove features (instead of packages).
+
+Examples:
+
+    conda remove -n myenv scipy
+DeenaMBP:projects Ds2007laptop$ conda remove -n cities_env
+
+CondaValueError: no package names supplied,
+       try "conda remove -h" for more details
+
+DeenaMBP:projects Ds2007laptop$ ls
+download_images.py	urls.txt
+DeenaMBP:projects Ds2007laptop$ conda create -n sanfran_env python=2.7
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/Ds2007laptop/anaconda3/envs/sanfran_env
+
+  added / updated specs:
+    - python=2.7
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    openssl-1.1.1              |       h1de35cc_0         4.6 MB
+    pip-10.0.1                 |           py27_0         1.7 MB
+    wheel-0.32.2               |           py27_0          34 KB
+    libffi-3.2.1               |                1          41 KB  bioconda
+    sqlite-3.25.2              |       ha441bb4_0         2.3 MB
+    certifi-2018.10.15         |           py27_0         138 KB
+    setuptools-40.4.3          |           py27_0         587 KB
+    python-2.7.15              |       h8f8e585_2        12.2 MB
+    ------------------------------------------------------------
+                                           Total:        21.6 MB
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2018.03.07-0
+    certifi:         2018.10.15-py27_0
+    libcxx:          4.0.1-h579ed51_0
+    libcxxabi:       4.0.1-hebd6815_0
+    libedit:         3.1.20170329-hb402a30_2
+    libffi:          3.2.1-1                 bioconda
+    ncurses:         6.1-h0a44026_0
+    openssl:         1.1.1-h1de35cc_0
+    pip:             10.0.1-py27_0
+    python:          2.7.15-h8f8e585_2
+    readline:        7.0-h1de35cc_5
+    setuptools:      40.4.3-py27_0
+    sqlite:          3.25.2-ha441bb4_0
+    tk:              8.6.8-ha441bb4_0
+    wheel:           0.32.2-py27_0
+    zlib:            1.2.11-hf3cbc9b_2
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+openssl-1.1.1        | 4.6 MB    | ############################################### | 100%
+pip-10.0.1           | 1.7 MB    | ############################################### | 100%
+wheel-0.32.2         | 34 KB     | ############################################### | 100%
+libffi-3.2.1         | 41 KB     | ############################################### | 100%
+sqlite-3.25.2        | 2.3 MB    | ############################################### | 100%
+certifi-2018.10.15   | 138 KB    | ############################################### | 100%
+setuptools-40.4.3    | 587 KB    | ############################################### | 100%
+python-2.7.15        | 12.2 MB   | ############################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate sanfran_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+DeenaMBP:projects Ds2007laptop$ conda activate sanfran_env
+(sanfran_env) DeenaMBP:projects Ds2007laptop$ pip install cv2
+Collecting cv2
+  Could not find a version that satisfies the requirement cv2 (from versions: )
+No matching distribution found for cv2
+You are using pip version 10.0.1, however version 18.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(sanfran_env) DeenaMBP:projects Ds2007laptop$ pip install --upgrade pip
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/c2/d7/90f34cb0d83a6c5631cf71dfe64cc1054598c843a92b400e55675cc2ac37/pip-18.1-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-18.1
+(sanfran_env) DeenaMBP:projects Ds2007laptop$ pip install cv2
+Collecting cv2
+  Could not find a version that satisfies the requirement cv2 (from versions: )
+No matching distribution found for cv2
+(sanfran_env) DeenaMBP:projects Ds2007laptop$ python
+Python 2.7.15 |Anaconda, Inc.| (default, Oct 23 2018, 13:35:16)
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named cv2
+>>>
+(sanfran_env) DeenaMBP:projects Ds2007laptop$ pip instsall opencv
+ERROR: unknown command "instsall" - maybe you meant "install"
+(sanfran_env) DeenaMBP:projects Ds2007laptop$ pip install opencv
+Collecting opencv
+  Could not find a version that satisfies the requirement opencv (from versions: )
+No matching distribution found for opencv
+(sanfran_env) DeenaMBP:projects Ds2007laptop$ source deactivate
+DeenaMBP:projects Ds2007laptop$ conda activate conda activate cities_env
+activate does not accept more than one argument:
+('conda', 'cities_env')
+
+DeenaMBP:projects Ds2007laptop$ activate cities_env
+DeenaMBP:projects Ds2007laptop$ which python
+/usr/bin/python
+DeenaMBP:projects Ds2007laptop$ conda activate cities_env
+(cities_env) DeenaMBP:projects Ds2007laptop$ conda install opencv
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/Ds2007laptop/anaconda3/envs/cities_env
+
+  added / updated specs:
+    - opencv
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    mkl_fft-1.0.6              |   py37hb8a8100_0         137 KB
+    jasper-2.0.14              |       h636a363_1         1.1 MB
+    harfbuzz-1.8.8             |       hb8d4a28_0         703 KB
+    certifi-2018.10.15         |           py37_0         138 KB
+    numpy-base-1.15.3          |   py37h8a80b8c_0         4.0 MB
+    python-3.7.1               |       haf84260_3        21.1 MB
+    libpng-1.6.35              |       ha441bb4_0         318 KB
+    libopencv-3.4.2            |       h7c891bd_1        27.5 MB
+    ffmpeg-4.0                 |       h01ea3c9_0        41.2 MB
+    libopus-1.2.1              |       h169cedb_0         397 KB
+    fontconfig-2.13.0          |       h5d5b041_1         245 KB
+    cairo-1.14.12              |       hc4e6be7_4         1.2 MB
+    numpy-1.15.3               |   py37h6a91979_0          35 KB
+    wheel-0.32.2               |           py37_0          34 KB
+    opencv-3.4.2               |   py37h6fd60c2_1          11 KB
+    graphite2-1.3.12           |       h2098e52_2          82 KB
+    py-opencv-3.4.2            |   py37h7c891bd_1         1.3 MB
+    libvpx-1.7.0               |       h378b8a2_0         2.3 MB
+    setuptools-40.4.3          |           py37_0         555 KB
+    pixman-0.34.0              |       hca0a616_3         597 KB
+    ------------------------------------------------------------
+                                           Total:       102.9 MB
+
+The following NEW packages will be INSTALLED:
+
+    blas:            1.0-mkl
+    bzip2:           1.0.6-h1de35cc_5
+    ca-certificates: 2018.03.07-0
+    cairo:           1.14.12-hc4e6be7_4
+    certifi:         2018.10.15-py37_0
+    ffmpeg:          4.0-h01ea3c9_0
+    fontconfig:      2.13.0-h5d5b041_1
+    freetype:        2.9.1-hb4e5f40_0
+    gettext:         0.19.8.1-h15daf44_3
+    glib:            2.56.2-hd9629dc_0
+    graphite2:       1.3.12-h2098e52_2
+    harfbuzz:        1.8.8-hb8d4a28_0
+    hdf5:            1.10.2-hfa1e0ec_1
+    icu:             58.2-h4b95b61_1
+    intel-openmp:    2019.0-118
+    jasper:          2.0.14-h636a363_1
+    jpeg:            9b-he5867d9_2
+    libcxx:          4.0.1-h579ed51_0
+    libcxxabi:       4.0.1-hebd6815_0
+    libedit:         3.1.20170329-hb402a30_2
+    libffi:          3.2.1-1                 bioconda
+    libgfortran:     3.0.1-h93005f0_2
+    libiconv:        1.15-hdd342a3_7
+    libopencv:       3.4.2-h7c891bd_1
+    libopus:         1.2.1-h169cedb_0
+    libpng:          1.6.35-ha441bb4_0
+    libtiff:         4.0.9-hcb84e12_2
+    libvpx:          1.7.0-h378b8a2_0
+    libxml2:         2.9.8-hab757c2_1
+    mkl:             2019.0-118
+    mkl_fft:         1.0.6-py37hb8a8100_0
+    mkl_random:      1.0.1-py37h5d10147_1
+    ncurses:         6.1-h0a44026_0
+    numpy:           1.15.3-py37h6a91979_0
+    numpy-base:      1.15.3-py37h8a80b8c_0
+    opencv:          3.4.2-py37h6fd60c2_1
+    openssl:         1.1.1-h1de35cc_0
+    pcre:            8.42-h378b8a2_0
+    pip:             10.0.1-py37_0
+    pixman:          0.34.0-hca0a616_3
+    py-opencv:       3.4.2-py37h7c891bd_1
+    python:          3.7.1-haf84260_3
+    readline:        7.0-h1de35cc_5
+    setuptools:      40.4.3-py37_0
+    sqlite:          3.25.2-ha441bb4_0
+    tk:              8.6.8-ha441bb4_0
+    wheel:           0.32.2-py37_0
+    xz:              5.2.4-h1de35cc_4
+    zlib:            1.2.11-hf3cbc9b_2
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+mkl_fft-1.0.6        | 137 KB    | ############################################### | 100%
+jasper-2.0.14        | 1.1 MB    | ############################################### | 100%
+harfbuzz-1.8.8       | 703 KB    | ############################################### | 100%
+certifi-2018.10.15   | 138 KB    | ############################################### | 100%
+numpy-base-1.15.3    | 4.0 MB    | ############################################### | 100%
+python-3.7.1         | 21.1 MB   | ############################################### | 100%
+libpng-1.6.35        | 318 KB    | ############################################### | 100%
+libopencv-3.4.2      | 27.5 MB   | ############################################### | 100%
+ffmpeg-4.0           | 41.2 MB   | ############################################### | 100%
+libopus-1.2.1        | 397 KB    | ############################################### | 100%
+fontconfig-2.13.0    | 245 KB    | ############################################### | 100%
+cairo-1.14.12        | 1.2 MB    | ############################################### | 100%
+numpy-1.15.3         | 35 KB     | ############################################### | 100%
+wheel-0.32.2         | 34 KB     | ############################################### | 100%
+opencv-3.4.2         | 11 KB     | ############################################### | 100%
+graphite2-1.3.12     | 82 KB     | ############################################### | 100%
+py-opencv-3.4.2      | 1.3 MB    | ############################################### | 100%
+libvpx-1.7.0         | 2.3 MB    | ############################################### | 100%
+setuptools-40.4.3    | 555 KB    | ############################################### | 100%
+pixman-0.34.0        | 597 KB    | ############################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(cities_env) DeenaMBP:projects Ds2007laptop$ conda install imutils
+Solving environment: failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - imutils
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-canary/osx-64
+  - https://conda.anaconda.org/conda-canary/noarch
+  - https://conda.anaconda.org/r/osx-64
+  - https://conda.anaconda.org/r/noarch
+  - https://conda.anaconda.org/bioconda/osx-64
+  - https://conda.anaconda.org/bioconda/noarch
+  - https://repo.anaconda.com/pkgs/main/osx-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/osx-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/osx-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/osx-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(cities_env) DeenaMBP:projects Ds2007laptop$ pip install imutils
+Collecting imutils
+mkl-random 1.0.1 requires cython, which is not installed.
+Installing collected packages: imutils
+Successfully installed imutils-0.5.1
+You are using pip version 10.0.1, however version 18.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(cities_env) DeenaMBP:projects Ds2007laptop$ python download_images.py --urls urls.txt --output images/sanfran
+Traceback (most recent call last):
+  File "download_images.py", line 7, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+(cities_env) DeenaMBP:projects Ds2007laptop$ python
+Python 3.7.1 (default, Oct 23 2018, 14:07:42)
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'requests'
+>>> import argparse
+>>> import os
+>>> import cv2
+>>> from imutils import paths
+>>>
+(cities_env) DeenaMBP:projects Ds2007laptop$ conda install requests
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/Ds2007laptop/anaconda3/envs/cities_env
+
+  added / updated specs:
+    - requests
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    requests-2.20.0            |           py37_0          84 KB  conda-canary
+    pycparser-2.19             |           py37_0         172 KB
+    ------------------------------------------------------------
+                                           Total:         256 KB
+
+The following NEW packages will be INSTALLED:
+
+    asn1crypto:   0.24.0-py37_0
+    cffi:         1.11.5-py37h6174b99_1
+    chardet:      3.0.4-py37_1
+    cryptography: 2.3.1-py37hdbc3d79_0
+    idna:         2.7-py37_0
+    pycparser:    2.19-py37_0
+    pyopenssl:    18.0.0-py37_0
+    pysocks:      1.6.8-py37_0
+    requests:     2.20.0-py37_0         conda-canary
+    six:          1.11.0-py37_1
+    urllib3:      1.23-py37_0
+
+The following packages will be DOWNGRADED:
+
+    openssl:      1.1.1-h1de35cc_0                   --> 1.0.2p-h1de35cc_0
+    python:       3.7.1-haf84260_3                   --> 3.7.0-hc167b69_0
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+requests-2.20.0      | 84 KB     | ############################################### | 100%
+pycparser-2.19       | 172 KB    | ############################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(cities_env) DeenaMBP:projects Ds2007laptop$ python download_images.py --urls urls.txt --output images/sanfran
+[INFO] error downloading images/sanfran/00000000.jpg...skipping
+[INFO] error downloading images/sanfran/00000000.jpg...skipping
+[INFO] error downloading images/sanfran/00000000.jpg...skipping

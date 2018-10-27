@@ -1,0 +1,126 @@
+Last login: Thu Oct 25 19:19:38 on ttys002
+DeenaMBP:~ Ds2007laptop$ ls
+130compat.pse			Sites
+Applications			VirtualBox VMs
+CLC_Data			anaconda3
+CLCdatabases			bin
+Creative Cloud Files		bowtie2-parameter-sweep.sh
+Desktop				igv
+Documents			ncbi
+Downloads			perfect_coverage.py
+Dropbox				session.pse
+Library				src
+Movies				test-repo
+Music				tutor
+Pictures			vim
+
+##################################
+# put new stuff under this banner
+##################################
+
+
+
+#################################################
+# Biostar suggestions for a minimal BASH profile
+#################################################
+
+# ON Mac OS uncomment the line below.
+# alias ls='ls -hG'
+
+# On Linux use the following:
+# alias ls='ls -h --color'
+
+# Safe versions of the default commands.
+# Will ask permissions before overwriting files.
+# alias rm='rm -i'
+# alias mv='mv -i'
+# alias cp='cp -i'
+
+# Extend the program search PATH and add the ~/bin folder.
+# export PATH=~/bin:$PATH
+
+# Makes the prompt much more user friendly
+# Admittedly, the command to set it up looks a bit crazy
+export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ '
+
+# This is required for Entrez Direct to work.
+# Disables strict checking of an encryption page.
+# export PERL_LWP_SSL_VERIFY_HOSTNAME=0
+
+# This is necessary for the sort of Entrez Direct to work correctly
+# export LC_ALL=C
+# export PATH=~/src/edirect:$PATH
+
+...skipping...
+Programs			wekafiles
+Public
+DeenaMBP:~ Ds2007laptop$ cd Documents/Work/Programming/fastai/
+DeenaMBP:fastai Ds2007laptop$ ls
+course-v3
+DeenaMBP:fastai Ds2007laptop$ cd course-v3/
+DeenaMBP:course-v3 Ds2007laptop$ ls
+LICENSE		README.md	docs		nbs		projects
+DeenaMBP:course-v3 Ds2007laptop$ cd projects/
+DeenaMBP:projects Ds2007laptop$ ls
+download_images.py	urls.txt
+DeenaMBP:projects Ds2007laptop$ conda activate cities_env
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+If your shell is Bash or a Bourne variant, enable conda for the current user with
+
+    $ echo ". /Users/Ds2007laptop/anaconda3/etc/profile.d/conda.sh" >> ~/.bash_profile
+
+or, for all users, enable conda with
+
+    $ sudo ln -s /Users/Ds2007laptop/anaconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+
+The options above will permanently enable the 'conda' command, but they do NOT
+put conda's base (root) environment on PATH.  To do so, run
+
+    $ conda activate
+
+in your terminal, or to put the base environment on PATH permanently, run
+
+    $ echo "conda activate" >> ~/.bash_profile
+
+Previous to conda 4.4, the recommended way to activate conda was to modify PATH in
+your ~/.bash_profile file.  You should manually remove the line that looks like
+
+    export PATH="/Users/Ds2007laptop/anaconda3/bin:$PATH"
+
+^^^ The above line should NO LONGER be in your ~/.bash_profile file! ^^^
+
+
+DeenaMBP:projects Ds2007laptop$ less ~/.bashrc
+DeenaMBP:projects Ds2007laptop$ less ~/.bashrc
+DeenaMBP:projects Ds2007laptop$ less ~/.bash_profile
+DeenaMBP:projects Ds2007laptop$ source ~/.bash_profile
+DeenaMBP:projects Ds2007laptop$ conda activate cities_env
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+If your shell is Bash or a Bourne variant, enable conda for the current user with
+
+    $ echo ". /Users/Ds2007laptop/anaconda3/etc/profile.d/conda.sh" >> ~/.bash_profile
+
+or, for all users, enable conda with
+
+    $ sudo ln -s /Users/Ds2007laptop/anaconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+
+The options above will permanently enable the 'conda' command, but they do NOT
+put conda's base (root) environment on PATH.  To do so, run
+
+    $ conda activate
+
+in your terminal, or to put the base environment on PATH permanently, run
+
+    $ echo "conda activate" >> ~/.bash_profile
+
+Previous to conda 4.4, the recommended way to activate conda was to modify PATH in
+your ~/.bash_profile file.  You should manually remove the line that looks like
+
+    export PATH="/Users/Ds2007laptop/anaconda3/bin:$PATH"
+
+^^^ The above line should NO LONGER be in your ~/.bash_profile file! ^^^
+
+
+DeenaMBP:projects Ds2007laptop$

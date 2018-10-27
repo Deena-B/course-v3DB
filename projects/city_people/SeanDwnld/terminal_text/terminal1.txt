@@ -1,0 +1,44 @@
+$
+Connection to farley.in closed.
+DeenaMBP:~ Ds2007laptop$ ssh deena@farley.in
+Welcome to Ubuntu 17.10 (GNU/Linux 4.13.0-46-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ * Security certifications for Ubuntu!
+   We now have FIPS, STIG, CC and a CIS Benchmark.
+
+   - http://bit.ly/Security_Certification
+
+ * Want to make a highly secure kiosk, smart display or touchscreen?
+   Here's a step-by-step tutorial for a rainy weekend, or a startup.
+
+   - https://bit.ly/secure-kiosk
+
+
+0 packages can be updated.
+0 updates are security updates.
+
+Your Ubuntu release is not supported anymore.
+For upgrade information, please visit:
+http://www.ubuntu.com/releaseendoflife
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Fri Oct 26 12:23:49 2018 from 66.236.182.202
+$
+Connection to farley.in closed.
+DeenaMBP:~ Ds2007laptop$ ssh-add -L
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDso0jIiUHcXqiB5TP4ABrVub10bbGdyZBBrBt40CfNNi4QkhVt+bMAaYFdg+8T2U7g1byEWbhUyM5W1VsFI65RSDiGE7gNsezcAUlmywJP/uu/ynCmNNuQUSds+bgYxt1igtyqudJDBJQWjz2ZoeqgA6penv/dlKDoBFEdfa/I7FeVyHDffZF4qY6TrwFylHMI78/HDgGZYWt3v0BmOe/IRp0N+NVb4HH+D3xx0htkAZgIASxwX4Q0ebvlzCB6u/o0p2iAT3V1laW/NclVfGfeJqk1ACDd6hl3ks+A7Z5YDLPN/1zwaR6fGPzZYE6HpnNXCVWRhmFeAiVQniJLjsCl /Users/Ds2007laptop/.ssh/id_rsa
+DeenaMBP:~ Ds2007laptop$ ssh-add -l
+2048 SHA256:2Tz5RDqw7UzDxF89ff0LVdxCNZjqJEPISblAHpL5WW4 /Users/Ds2007laptop/.ssh/id_rsa (RSA)
+DeenaMBP:~ Ds2007laptop$ clear
+DeenaMBP:~ Ds2007laptop$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDso0jIiUHcXqiB5TP4ABrVub10bbGdyZBBrBt40CfNNi4QkhVt+bMAaYFdg+8T2U7g1byEWbhUyM5W1VsFI65RSDiGE7gNsezcAUlmywJP/uu/ynCmNNuQUSds+bgYxt1igtyqudJDBJQWjz2ZoeqgA6penv/dlKDoBFEdfa/I7FeVyHDffZF4qY6TrwFylHMI78/HDgGZYWt3v0BmOe/IRp0N+NVb4HH+D3xx0htkAZgIASxwX4Q0ebvlzCB6u/o0p2iAT3V1laW/NclVfGfeJqk1ACDd6hl3ks+A7Z5YDLPN/1zwaR6fGPzZYE6HpnNXCVWRhmFeAiVQniJLjsCl Ds2007laptop@DeenaMBP.local
+DeenaMBP:~ Ds2007laptop$ cat ~/.ssh/id_rsa.pub | pbcopy
+DeenaMBP:~ Ds2007laptop$
+
+

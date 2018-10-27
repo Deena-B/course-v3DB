@@ -1,0 +1,319 @@
+Last login: Fri Oct 26 15:09:31 on ttys004
+DeenaMBP:~ Ds2007laptop$ curl https://sdk.cloud.google.com | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   443    0   443    0     0   3076      0 --:--:-- --:--:-- --:--:--  3097
+Downloading Google Cloud SDK install script: https://dl.google.com/dl/cloudsdk/channels/rapid/install_google_cloud_sdk.bash
+######################################################################## 100.0%
+Running install script from: /var/folders/32/h_sfxvrj7wzd6byh84d9tsc40000gp/T/tmp.XXXXXXXXXX.Ayoaesrv/install_google_cloud_sdk.bash
+which curl
+curl -# -f https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz
+################################################################################### 100.0%
+
+Installation directory (this will create a google-cloud-sdk subdirectory) (/Users/Ds2007laptop): ^C
+DeenaMBP:~ Ds2007laptop$ curl https://sdk.cloud.google.com | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   443    0   443    0     0   6068      0 --:--:-- --:--:-- --:--:--  6068
+Downloading Google Cloud SDK install script: https://dl.google.com/dl/cloudsdk/channels/rapid/install_google_cloud_sdk.bash
+######################################################################## 100.0%
+Running install script from: /var/folders/32/h_sfxvrj7wzd6byh84d9tsc40000gp/T/tmp.XXXXXXXXXX.bNh78X78/install_google_cloud_sdk.bash
+which curl
+curl -# -f https://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.tar.gz
+################################################################################### 100.0%
+
+Installation directory (this will create a google-cloud-sdk subdirectory) (/Users/Ds2007laptop): ^C
+DeenaMBP:~ Ds2007laptop$ brew install google-cloud-sdk
+Error: No available formula with the name "google-cloud-sdk"
+==> Searching for a previously deleted formula (in the last month)...
+Warning: homebrew/core is shallow clone. To get complete history run:
+  git -C "$(brew --repo homebrew/core)" fetch --unshallow
+
+Error: No previously deleted formula found.
+==> Searching for similarly named formulae...
+Error: No similarly named formulae found.
+==> Searching taps...
+==> Searching taps on GitHub...
+Error: No formulae found in taps.
+DeenaMBP:~ Ds2007laptop$ brew cask install google-cloud-sdk
+==> Caveats
+google-cloud-sdk is installed at /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk. Add your profile:
+
+  for bash users
+    source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
+    source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
+
+  for zsh users
+    source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+    source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+
+==> Satisfying dependencies
+==> Downloading https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz
+######################################################################## 100.0%
+==> No SHA-256 checksum defined for Cask 'google-cloud-sdk', skipping verification.
+==> Installing Cask google-cloud-sdk
+==> Running installer script 'google-cloud-sdk/install.sh'
+Welcome to the Google Cloud SDK!
+
+
+Your current Cloud SDK version is: 222.0.0
+Installing components from version: 222.0.0
+
++----------------------------------------------------------------------------+
+|                    These components will be installed.                     |
++-----------------------------------------------------+------------+---------+
+|                         Name                        |  Version   |   Size  |
++-----------------------------------------------------+------------+---------+
+| BigQuery Command Line Tool                          |     2.0.36 | < 1 MiB |
+| BigQuery Command Line Tool (Platform Specific)      |     2.0.34 | < 1 MiB |
+| Cloud SDK Core Libraries (Platform Specific)        | 2018.09.24 | < 1 MiB |
+| Cloud Storage Command Line Tool                     |       4.34 | 3.5 MiB |
+| Cloud Storage Command Line Tool (Platform Specific) |       4.34 | < 1 MiB |
+| Default set of gcloud commands                      |            |         |
+| gcloud cli dependencies                             | 2018.08.03 | 1.5 MiB |
++-----------------------------------------------------+------------+---------+
+
+For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+#============================================================#
+#= Creating update staging area                             =#
+#============================================================#
+#= Installing: BigQuery Command Line Tool                   =#
+#============================================================#
+#= Installing: BigQuery Command Line Tool (Platform Spec... =#
+#============================================================#
+#= Installing: Cloud SDK Core Libraries (Platform Specific) =#
+#============================================================#
+#= Installing: Cloud Storage Command Line Tool              =#
+#============================================================#
+#= Installing: Cloud Storage Command Line Tool (Platform... =#
+#============================================================#
+#= Installing: Default set of gcloud commands               =#
+#============================================================#
+#= Installing: gcloud cli dependencies                      =#
+#============================================================#
+#= Creating backup and activating new installation          =#
+#============================================================#
+
+Performing post processing steps...
+....................................................done.
+
+Update done!
+
+
+This will install all the core command line tools necessary for working with
+the Google Cloud Platform.
+
+==> Source [/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc] in your profile to enable shell command completion for gcloud.
+==> Source [/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc] in your profile to add the Google Cloud SDK command line tools to your $PATH.
+
+For more information on how to get started, please visit:
+  https://cloud.google.com/sdk/docs/quickstarts
+
+
+==> Linking Binary 'bq' to '/usr/local/bin/bq'.
+==> Linking Binary 'docker-credential-gcloud' to '/usr/local/bin/docker-credential-gcloud'
+==> Linking Binary 'gcloud' to '/usr/local/bin/gcloud'.
+==> Linking Binary 'git-credential-gcloud.sh' to '/usr/local/bin/git-credential-gcloud.sh'
+==> Linking Binary 'gsutil' to '/usr/local/bin/gsutil'.
+🍺  google-cloud-sdk was successfully installed!
+DeenaMBP:~ Ds2007laptop$ which gcloud
+/usr/local/bin/gcloud
+DeenaMBP:~ Ds2007laptop$ gcloud init
+Welcome! This command will take you through the configuration of gcloud.
+
+Your current configuration has been set to: [default]
+
+You can skip diagnostics next time by using the following flag:
+  gcloud init --skip-diagnostics
+
+Network diagnostic detects and fixes local network connection issues.
+Checking network connection...done.
+Reachability Check passed.
+Network diagnostic (1/1 checks) passed.
+
+You must log in to continue. Would you like to log in (Y/n)?  Y
+
+Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&access_type=offline
+
+
+You are logged in as: [deenab7@gmail.com].
+
+Pick cloud project to use:
+ [1] peppy-cosmos-220321
+ [2] Create a new project
+Please enter numeric choice or text value (must exactly match list
+item):  1
+
+Your current project has been set to: [peppy-cosmos-220321].
+
+Not setting default zone/region (this feature makes it easier to use
+[gcloud compute] by setting an appropriate default value for the
+--zone and --region flag).
+See https://cloud.google.com/compute/docs/gcloud-compute section on how to set
+default compute region and zone manually. If you would like [gcloud init] to be
+able to do this for you the next time you run it, make sure the
+Compute Engine API is enabled for your project on the
+https://console.developers.google.com/apis page.
+
+Created a default .boto configuration file at [/Users/Ds2007laptop/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+Your Google Cloud SDK is configured and ready to use!
+
+* Commands that require authentication will use deenab7@gmail.com by default
+* Commands will reference project `peppy-cosmos-220321` by default
+Run `gcloud help config` to learn how to change individual settings
+
+This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+Run `gcloud topic configurations` to learn more.
+
+Some things to try next:
+
+* Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+* Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
+DeenaMBP:~ Ds2007laptop$ export IMAGE_FAMILY="pytorch-1-0-cu92-experimental" # or "pytorch-1-0-cpu-experimental" for non-GPU instances
+DeenaMBP:~ Ds2007laptop$ export ZONE="us-west2-b" # budget: "us-west1-b"
+DeenaMBP:~ Ds2007laptop$ export INSTANCE_NAME="my-fastai-instance"
+DeenaMBP:~ Ds2007laptop$ export INSTANCE_TYPE="n1-highmem-8" # budget: "n1-highmem-4"
+DeenaMBP:~ Ds2007laptop$
+DeenaMBP:~ Ds2007laptop$ # budget: 'type=nvidia-tesla-k80,count=1'
+DeenaMBP:~ Ds2007laptop$ gcloud compute instances create $INSTANCE_NAME \
+>         --zone=$ZONE \
+>         --image-family=$IMAGE_FAMILY \
+>         --image-project=deeplearning-platform-release \
+>         --maintenance-policy=TERMINATE \
+>         --accelerator="type=nvidia-tesla-p4,count=1" \
+>         --machine-type=$INSTANCE_TYPE \
+>         --boot-disk-size=200GB \
+>         --metadata="install-nvidia-driver=True" \
+>         --preemptible
+API [compute.googleapis.com] not enabled on project [372046372990].
+Would you like to enable and retry (this will take a few minutes)?
+(y/N)?  y
+
+Enabling service compute.googleapis.com on project 372046372990...
+Waiting for async operation operations/tmo-acf.360376e1-3b26-4ad8-90c2-34ab820a869a to complete...
+Operation finished successfully. The following command can describe the Operation details:
+ gcloud services operations describe operations/tmo-acf.360376e1-3b26-4ad8-90c2-34ab820a869a
+Created [https://www.googleapis.com/compute/v1/projects/peppy-cosmos-220321/zones/us-west2-b/instances/my-fastai-instance].
+NAME                ZONE        MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+my-fastai-instance  us-west2-b  n1-highmem-8  true         10.168.0.2   35.235.127.79  RUNNING
+DeenaMBP:~ Ds2007laptop$ gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
+WARNING: The public SSH key file for gcloud does not exist.
+WARNING: The private SSH key file for gcloud does not exist.
+WARNING: You do not have an SSH key for gcloud.
+WARNING: SSH keygen will be executed to generate a key.
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+DeenaMBP:~ Ds2007laptop$ gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
+WARNING: The public SSH key file for gcloud does not exist.
+WARNING: The private SSH key file for gcloud does not exist.
+WARNING: You do not have an SSH key for gcloud.
+WARNING: SSH keygen will be executed to generate a key.
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/Ds2007laptop/.ssh/google_compute_engine.
+Your public key has been saved in /Users/Ds2007laptop/.ssh/google_compute_engine.pub.
+The key fingerprint is:
+SHA256:t1157WoAE2p/JVJ51CKnWUj5Q5ZPzOCsT68vK4RJ2wI Ds2007laptop@DeenaMBP.local
+The key's randomart image is:
++---[RSA 2048]----+
+|           ..=o* |
+|          . *oO =|
+|         . o @o+ |
+|        E = +.+.o|
+|       .S+.O.o+.o|
+|         .*o=+ + |
+|          .+... o|
+|            . oo |
+|             o++.|
++----[SHA256]-----+
+Updating project ssh metadata...⠶Updated [https://www.googleapis.com/compute/v1/projects/peppy-cosmos-220321].
+Updating project ssh metadata...done.
+Waiting for SSH key to propagate.
+Warning: Permanently added 'compute.7963451899732957791' (ECDSA) to the list of known hosts.
+Enter passphrase for key '/Users/Ds2007laptop/.ssh/google_compute_engine':
+Enter passphrase for key '/Users/Ds2007laptop/.ssh/google_compute_engine':
+======================================
+Welcome to the Google Deep Learning VM
+======================================
+
+Version: m10
+Based on: Debian GNU/Linux 9.5 (stretch) (GNU/Linux 4.9.0-8-amd64 x86_64\n)
+
+Resources:
+ * Google Deep Learning Platform StackOverflow: https://stackoverflow.com/questions/tagged/google-dl-platform
+ * Google Cloud Documentation: https://cloud.google.com/deep-learning-vm
+ * Google Group: https://groups.google.com/forum/#!forum/google-dl-platform
+
+To reinstall Nvidia driver (if needed) run:
+sudo /opt/deeplearning/install-driver.sh
+This image uses python 3.6 from the Anaconda. Anaconda is installed to:
+/opt/anaconda3/
+
+If anything need to be installed and used with Jupyter Lab please do it in the following way:
+sudo /opt/anaconda3/bin/pip install <PACKAGE>
+
+Linux my-fastai-instance 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+jupyter@my-fastai-instance:~$ logout
+Connection to 35.235.127.79 closed.
+DeenaMBP:~ Ds2007laptop$ gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
+Enter passphrase for key '/Users/Ds2007laptop/.ssh/google_compute_engine':
+DeenaMBP:~ Ds2007laptop$ ssh-add -K ~/.ssh/google_compute_engine
+Enter passphrase for /Users/Ds2007laptop/.ssh/google_compute_engine:
+Identity added: /Users/Ds2007laptop/.ssh/google_compute_engine (/Users/Ds2007laptop/.ssh/google_compute_engine)
+DeenaMBP:~ Ds2007laptop$ gcloud compute ssh --zone=$ZONE jupyter@$INSTANCE_NAME -- -L 8080:localhost:8080
+======================================
+Welcome to the Google Deep Learning VM
+======================================
+
+Version: m10
+Based on: Debian GNU/Linux 9.5 (stretch) (GNU/Linux 4.9.0-8-amd64 x86_64\n)
+
+Resources:
+ * Google Deep Learning Platform StackOverflow: https://stackoverflow.com/questions/tagged/google-dl-platform
+ * Google Cloud Documentation: https://cloud.google.com/deep-learning-vm
+ * Google Group: https://groups.google.com/forum/#!forum/google-dl-platform
+
+To reinstall Nvidia driver (if needed) run:
+sudo /opt/deeplearning/install-driver.sh
+This image uses python 3.6 from the Anaconda. Anaconda is installed to:
+/opt/anaconda3/
+
+If anything need to be installed and used with Jupyter Lab please do it in the following way:
+sudo /opt/anaconda3/bin/pip install <PACKAGE>
+
+Linux my-fastai-instance 4.9.0-8-amd64 #1 SMP Debian 4.9.110-3+deb9u6 (2018-10-08) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+jupyter@my-fastai-instance:~$ ls
+tutorials
+jupyter@my-fastai-instance:~$ cd tutorials/
+jupyter@my-fastai-instance:~/tutorials$ ls
+data  fastai  pytorch
+jupyter@my-fastai-instance:~/tutorials$ cd data
+jupyter@my-fastai-instance:~/tutorials/data$ ls
+jupyter@my-fastai-instance:~/tutorials/data$ ls -a
+.  ..
+jupyter@my-fastai-instance:~/tutorials/data$ cd ..
+jupyter@my-fastai-instance:~/tutorials$ Connection to 35.235.127.79 closed by remote host.
+Connection to 35.235.127.79 closed.
+ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].
+DeenaMBP:~ Ds2007laptop$
