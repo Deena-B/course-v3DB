@@ -1,0 +1,41 @@
+Last login: Fri Oct 26 13:35:02 on ttys002
+DeenaMBP:~ Ds2007laptop$ ls
+130compat.pse			Sites
+Applications			VirtualBox VMs
+CLC_Data			anaconda3
+CLCdatabases			bin
+Creative Cloud Files		bowtie2-parameter-sweep.sh
+Desktop				igv
+Documents			ncbi
+Downloads			perfect_coverage.py
+Dropbox				session.pse
+Library				src
+Movies				test-repo
+Music				tutor
+Pictures			vim
+Programs			wekafiles
+Public
+DeenaMBP:~ Ds2007laptop$ cd Documents/Work/Programming/fastai/course-v3/
+DeenaMBP:course-v3 Ds2007laptop$ ls
+LICENSE		README.md	docs		nbs		projects
+DeenaMBP:course-v3 Ds2007laptop$ cd projects
+DeenaMBP:projects Ds2007laptop$ ls
+100404a.jpg?format=original
+1z33p0y.jpg
+2016-01-06T224751Z_299258606_TB3EC161RBGB5_RTRMADP_3_CALIFORNIA-ELNINO.jpg
+AFP-Getty_ENTERTAINMENT-US-FAIRE-SANFRANCISCO2-1.jpg
+chinatown-san-francisco-california-street-people-pentax-camera-S17WA5.jpg
+cmd_line_20181025_wCalvin1
+cmd_line_20181025_wCalvin2
+download_images.py
+photos-com-render?frame=F0000&matte=ML000&style=CG&size=600&url=https:%2F%2Fmedia.gettyimages.com%2Fphotos%2Fcalifornia-san-francisco-cable-car-and-people-in-street-picture-id149277359?b=1&k=6&m=149277359&s=612x612&w=0&h=48i1fJNbUeZKwcW
+rawImage.jpg
+san-francisco-california-street-chinatown-fruit-vegetable-market-people-S19DXX.jpg
+san-francisco-california-street-people-dog-shopping-cart-S17W0R.jpg
+san_francisco_crowd_51893816.jpg?w=420
+urls.txt
+urlsFull.txt
+usca43232-bw.jpeg
+DeenaMBP:projects Ds2007laptop$
+
+
